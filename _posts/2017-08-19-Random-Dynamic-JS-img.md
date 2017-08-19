@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Вывод случайных изображений динамически через JavaScript"
-date: 2017-08-19
+date: 2017-08-19 15:47
 comments: true
 
 description: Вывод случайных изображений динамически через JavaScript и cookie
