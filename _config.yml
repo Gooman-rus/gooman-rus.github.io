@@ -3,4 +3,4 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
-  - pygments 
+  - Pygments 
