@@ -17,7 +17,7 @@ keywords: javascript, jquery, cookie, изображения, random, случа
 - jQuery Cookie.
 
 Для этого будет использоваться простой JavaScript файл:
-{% highlight javascript %}
+```javascript
 // список файлов с изображениями
 var imgFiles = ['1.jpg', '2.jpg', '3.png'];
 
@@ -45,4 +45,4 @@ if (dynImg !== undefined) {
 function displayImage(img) {
     jQuery('#dynamic-img').html('<img src="/img/'+ img + '" class="rounded-circle" style="width: 40px; height: 40px; margin-right: 5px"/>')
 }
-{% endhighlight %}
+```
