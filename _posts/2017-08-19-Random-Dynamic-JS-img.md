@@ -17,7 +17,7 @@ keywords: javascript, jquery, cookie, изображения, random, случа
 - jQuery Cookie.
 
 Предварительно на страницу должен быть добавлен следующий тег, куда будет подставляться изображение:
-{% highlight javascript %}
+{% highlight html %}
 <div id="dynamic-img"></div>
 {% endhighlight %}
 
