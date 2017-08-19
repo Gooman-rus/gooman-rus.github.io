@@ -10,5 +10,5 @@ if (dynImg !== undefined) {
 }
 
 function displayImage(img) {
-    jQuery('#dynamic-img').html('<img src="{{ site.url }}/img/'+ img + '" class="rounded-circle" style="width: 40px; height: 40px;"/>')
+    jQuery('#dynamic-img').html('<img src="yougo.website/img/'+ img + '" class="rounded-circle" style="width: 40px; height: 40px;"/>')
 }
