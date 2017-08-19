@@ -1,9 +1,12 @@
 ---
-published: false
----
-## A New Post
+layout: post
+title: "Вывод случайных изображений динамически через JavaScript"
+date: 2017-08-19
+comments: true
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+description: Вывод случайных изображений динамически через JavaScript и cookie
+keywords: javascript, jquery, cookie, изображения, random, случайно
+---
 
 В данной статье будет расмотрен способ создания динамических изображений, которые меняются в случайном порядке через определенные промежутки времени.
 
