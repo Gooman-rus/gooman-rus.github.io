@@ -43,6 +43,8 @@ if (dynImg !== undefined) {
 }
 
 function displayImage(img) {
-    jQuery('#dynamic-img').html('<img src="/img/'+ img + '" class="rounded-circle" style="width: 40px; height: 40px; margin-right: 5px"/>')
+    jQuery('#dynamic-img').html('<img src="/img/'+ img + '" class="rounded-circle" style="width: 40px; height: 40px;/>')
 }
 {% endhighlight %}
+
+Данный скрипт используется для вывода изображений в левом верхнем углу моего сайта.
