@@ -1,12 +1,10 @@
-var imgNames = ["1.jpg", "2.jpg"];
+var imgFiles = ['1.jpg', '2.jpg', '3.png'];
+var dynImg = jQuery.cookie('dynImg');
 
-var imgName = jQuery.cookie('dynImg');
-
-if (imgName !== undefined) {
-    displayImage(img);
+if (dynImg !== undefined) {
+    displayImage(dynImg);
 } else {
-    var item = imgNames[Math.floor(Math.random()*imgNames.length)];    
-    // Cookies.set('dynImg', item, { expires: 0 });
+    var item = imgFiles[Math.floor(Math.random()*imgFiles.length)];    
     jQuery.cookie('dynImg', item);
     displayImage(item);
 }
