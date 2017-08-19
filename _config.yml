@@ -1,2 +1,5 @@
 name: Gooman
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
