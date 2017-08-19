@@ -10,7 +10,7 @@ title: Блог - YU Gooman
 {% for post in site.posts %}
     <!-- <li><span>{{ post.date | date: "%d.%m.%Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
     <div class="blog-post">
-        <h3 class="blog-post-title">{{ post.title }}</h3>
+        <h5 class="blog-post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
         <p class="blog-post-meta">{{ post.date | date: "%d.%m.%Y" }}</p>
         {{ post.excerpt }}
     </div>
