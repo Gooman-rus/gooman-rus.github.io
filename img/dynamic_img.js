@@ -2,7 +2,7 @@ var imgFiles = ['1.jpg', '2.jpg', '3.png'];
 var minutes = 2;
 
 var expiryDate = new Date();
-expiryDate.setTime(date.getTime() + (minutes * 60 * 1000));
+expiryDate.setTime(expiryDate.getTime() + (minutes * 60 * 1000));
 
 var dynImg = jQuery.cookie('dynImg');
 if (dynImg !== undefined) {
