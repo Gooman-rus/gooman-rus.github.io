@@ -1,6 +1,6 @@
 name: Gooman
 markdown: kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-sitemap
-  - Pygments 
