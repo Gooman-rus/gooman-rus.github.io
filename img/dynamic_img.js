@@ -1,6 +1,6 @@
 var imgNames = ["1.jpg", "2.jpg"];
 
-var imgName = jQuery.cookie(dynImg);
+var imgName = jQuery.cookie('dynImg');
 
 if (imgName !== undefined) {
     displayImage(img);
