@@ -2,6 +2,8 @@ name: Gooman
 markdown: kramdown
 highlighter: rouge
 
+url: https://yougo.website
+enforce_ssl: yougo.website
 
 plugins:
   - jekyll-sitemap
