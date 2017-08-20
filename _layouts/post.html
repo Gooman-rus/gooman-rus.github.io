@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="blog-post-schema" itemscope itemtype="http://schema.org/Article">
     <h3 itemprop="name">{{ page.title }}</h1>
-    <p class="meta" content={{ page.date | date: "%Y-%m-%d" }} itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</p>
+    <p class="meta" itemprop="datePublished" content={{ page.date | date: "%Y-%m-%d" }}>{{ page.date | date: "%d.%m.%Y" }}</p>
 
     <div class="blog-post" itemprop="articleBody">
       {{ content }}
