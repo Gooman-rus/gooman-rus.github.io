@@ -4,7 +4,7 @@ layout: default
 <div id="blog-post-schema" itemscope itemtype="http://schema.org/Article">
     <h3 itemprop="name">{{ page.title }}</h3>
     <p class="meta" itemprop="datePublished" content={{ page.date | date: "%Y-%m-%d" }}>{{ page.date | date: "%d.%m.%Y" }}</p>
-    <section itemprop="author" itemscope itmetype="http://schema.org/Person" content="Yurii"></section>
+    <section itemprop="author" itemscope itmetype="http://schema.org/Person" name="Yurii"></section>
 
     <div class="blog-post" itemprop="articleBody">
       {{ content }}
