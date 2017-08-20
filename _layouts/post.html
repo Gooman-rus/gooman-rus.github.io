@@ -5,10 +5,10 @@ layout: default
     <h3 itemprop="headline">{{ page.title }}</h3>
     <p class="meta" itemprop="datePublished" content={{ page.date | date: "%Y-%m-%d" }}>{{ page.date | date: "%d.%m.%Y" }}</p>
     <section itemprop="author" style="display: none;">Yurii</section>
-    <section itemprop="publisher" style="display: none;">Yurii</section>
+    <!-- <section itemprop="publisher" style="display: none;">Yurii</section> -->
     <section itemprop="name" style="display: none;">{{ page.title }}</section>
-    <section itemprop="image" style="display: none;">{{ site.url }}/img/3.png</section>
-
+    <img itemprop="image" src="{{ site.url }}/img/3.png" alt="Статья на YU Gooman" style="display: none;"/>
+       
     <div class="blog-post" itemprop="articleBody">
       {{ content }}
     </div>
