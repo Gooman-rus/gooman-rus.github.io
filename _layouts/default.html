@@ -19,8 +19,8 @@
     <link href="/css/syntax.css" rel="stylesheet">
   </head>
 
-  <body>
-      <nav class="navbar navbar-expand-md navbar-light bg-light mb-4">
+  <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+      <nav class="navbar navbar-expand-md navbar-light bg-light mb-4" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
       <a href="{{ site.url }}"><div id="dynamic-img"></div></a>
       <a class="navbar-brand" href="{{ site.url }}">YU Gooman</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,8 +28,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/about">О сайте</a>
+          <li class="nav-item" itemprop="name">
+            <a class="nav-link" href="/about" itemprop="url">О сайте</a>
            </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
