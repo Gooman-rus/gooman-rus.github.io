@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /assets
+Disallow: /r
 Sitemap: http://yougo.website/sitemap.xml
