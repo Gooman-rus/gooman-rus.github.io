@@ -1,6 +1,6 @@
 // Set up the canvas dimensions
-var canvas = document.getElementById('canvas'),
-    context = canvas.getContext('2d');
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
 canvas.width = 650;
 canvas.height = 450;
 
