@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /assets
 Disallow: /r
+Disallow: /google4362effc6dd85aa6.html
 Sitemap: http://yougo.website/sitemap.xml
