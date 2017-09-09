@@ -7,9 +7,6 @@ comments: true
 description: Бот для получения прогноза погоды в Telegram
 keywords: telegram, bot, chat, weather, forecast, прогноз, погоды, телеграм, бот
 ---
-
-## Бот с прогнозом погоды в Telegram
-
 Хочу представить своего бота Telegram под названием [TheLair Weather](https://storebot.me/bot/thelairbot "Прогноз погоды Telegram bot"), который позволяет получить прогноз погоды на 5 дней в виде красивых и подробных графиков.
 ![TheLair Weather]({{site.baseurl}}//_posts/images/morning-rain.png)
 
