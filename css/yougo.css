@@ -31,11 +31,10 @@
   margin-bottom: 4rem;
 }
 
-.blog-post  > img {
-    position:absolute;
-    min-height:100%;
-    min-width:100%;
-    -webkit-transform: translate(-50%, -50%);
+.blog-post  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .blog-post-title {
