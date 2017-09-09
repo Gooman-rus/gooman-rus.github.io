@@ -30,6 +30,14 @@
 .blog-post {
   margin-bottom: 4rem;
 }
+
+.blog-post  > img {
+    position:absolute;
+    min-height:100%;
+    min-width:100%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 1.5rem;
@@ -38,3 +46,4 @@
   margin-bottom: 1.25rem;
   color: #999;
 }
+
