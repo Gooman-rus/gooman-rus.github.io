@@ -26,27 +26,38 @@ keywords: компьютеры, программирование, java, javascri
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<nav aria-label="...">
+    <ul class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <li class="page-item">
+      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Назад</a>
+    </li>
   {% else %}
-    <span>&laquo; Prev</span>
+    <li class="page-item disabled">
+      <a class="page-link" href="" tabindex="-1">&laquo; Назад</a>
+    </li>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
+  
+  
+  <!-- {% for page in (1..paginator.total_pages) %} -->
+    <!-- {% if page == paginator.page %} -->
+      <!-- <em>{{ page }}</em> -->
+    <!-- {% elsif page == 1 %} -->
+      <!-- <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a> -->
+    <!-- {% else %} -->
+      <!-- <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a> -->
+    <!-- {% endif %} -->
+  <!-- {% endfor %} -->
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <li class="page-item">
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Вперёд &raquo;</a>
+    </li>
   {% else %}
-    <span>Next &raquo;</span>
+    <li class="page-item disabled">
+      <a class="page-link" href="" tabindex="-1">Вперёд &raquo;</a>
+    </li>
   {% endif %}
-</div>
+  </ul>
+</nav>
 {% endif %}
