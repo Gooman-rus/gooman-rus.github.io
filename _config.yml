@@ -2,8 +2,8 @@ name: Gooman
 markdown: kramdown
 highlighter: rouge
 
-url: http://gooman-rus.github.io
-#enforce_ssl: yougo.website
+url: https://gooman-rus.github.io/
+enforce_ssl: gooman-rus.github.io
 
 paginate: 5
 paginate_path: "/page:num/"
